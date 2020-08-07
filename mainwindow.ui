@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>922</width>
-    <height>760</height>
+    <height>745</height>
    </rect>
   </property>
   <property name="font">
@@ -45,7 +45,7 @@
       <x>0</x>
       <y>0</y>
       <width>921</width>
-      <height>731</height>
+      <height>721</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
@@ -62,7 +62,7 @@
       <number>10</number>
      </property>
      <property name="bottomMargin">
-      <number>10</number>
+      <number>0</number>
      </property>
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_3">
@@ -213,8 +213,26 @@
      </item>
      <item>
       <widget class="QLabel" name="aboutLabel">
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
        <property name="text">
         <string>TextLabel</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::RichText</enum>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignBottom|Qt::AlignRight|Qt::AlignTrailing</set>
+       </property>
+       <property name="margin">
+        <number>0</number>
+       </property>
+       <property name="openExternalLinks">
+        <bool>true</bool>
        </property>
       </widget>
      </item>

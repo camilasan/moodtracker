@@ -10,6 +10,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    ui->aboutLabel->setText("Made by Camila licensed under GPL-3.0 License @ <a href='https://github.com/camilasan/moodtracker'>github.com/camilasan/moodtracker</a>.");
     QObject::connect(ui->openButton, &QPushButton::clicked, this, &MainWindow::slotOpen);
     QObject::connect(ui->saveButton, &QPushButton::clicked, this, &MainWindow::slotSave);
     QObject::connect(ui->setFolderButton, &QPushButton::clicked, this, &MainWindow::slotSetFolder);
