@@ -1,2 +1,9 @@
-# moodtracker
-A mood tracker.
+# A mood tracker
+
+WIP...
+TBD...
+
+## TO DO
+- [ ] create note file by week number
+- [ ] sync the displayed calendar with the notes
+- [ ] ....
