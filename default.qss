@@ -1,0 +1,3 @@
+QCalendarWidget { border: 1px solid #ccc }
+QPushButton { border: 1px solid #ccc }
+QTextEdit { border: 1px solid #ccc }
