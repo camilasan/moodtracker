@@ -1,0 +1,2 @@
+- Default icon source https://commons.wikimedia.org/wiki/File:Emojione_1F43B.svg
+- Application icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
