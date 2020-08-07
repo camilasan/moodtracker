@@ -1,3 +1,17 @@
-QCalendarWidget { border: 1px solid #ccc }
-QPushButton { border: 1px solid #ccc }
-QTextEdit { border: 1px solid #ccc }
+QCalendarWidget {
+    border: 1px solid #ccc;
+}
+QPushButton {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+QPushButton:hover {
+    border: 1px solid #666;
+}
+QTextEdit {
+    border: 1px solid #ccc;
+}
+QLabel {
+    padding-top: 20px;
+    color: #666;
+}
